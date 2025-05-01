@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-segundaria: #DAAD18;
+    --color-rei: #374B62;
+    --color-barra: #1D3753;
+}
+h1{
+    font-size: 50px;
+    margin-top: 30px;
+    color: black;
+    text-align: center;
+}
+.navbar{
+    color: white;
+    background-color: var(--color-rei);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    padding: 0 5% 0 5%;
+    font-family: "Playfair Display", serif;
+    z-index: 51;
+}
+.preto-mode{
+    color: black !important;
+}
+.preto-mode:hover{
+    color: var(--color-segundaria) !important;
+    transform: scale(1.2);
+}
+.navbar h2,h3{
+    font-weight: 400;
+}
+body{
+    font-family: "Playfair Display", serif;
+    background-color: #D0D0D0;
+    transition: 0.8s;
+}
+#barraAzul{
+    width: 100%;
+    height: 10px;
+    background-color: var(--color-barra);
+    position: sticky;
+    top: 100px;
+    z-index: 50;
+}
+.DarkMode{
+    background-color: rgb(20, 20, 20);
+}
+.navbar h2{
+    font-size: 36px;
+}
+.navbar a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    color: var(--color-segundaria);
+    transform: scale(1.2);
+}
+.navbar g{
+    color: var(--color-segundaria);
+}
+#retangle{
+    background-color: white;
+    width: 5px;
+    height: 30px;
+    transition: 0.8s;
+}
+#OnOff{
+    background-color: #D9D9D9;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    justify-content: left;
+    transition: 0.8s;
+}
+#all i{
+    font-size: 30px;
+    margin: 0;
+}
+#circle{
+    background-color: #2F2F2F;
+    width: 35px;
+    height: 25px;
+    border-radius: 50%;
+}
+.selection{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    align-items: center;
+}
+.logo{
+    margin: 0;
+}
+.botton{
+    display: none;
+}
+.botton i{
+    font-size: 25px;
+    border: 0;
+    border-color: transparent;
+    background-color: var(--color-rei);
+    color: white;
+}
+#all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+select, p{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    width: 700px;
+    height: 110px;
+    text-align: center;
+    place-content: center;
+    margin-bottom: 10px;
+}
+.resposta{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    place-content: initial;
+}
+.resposta2{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    width: 700px;
+    height: 400px;
+    text-align: center;
+    place-content: initial;
+}
+.resposta1{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    place-content: initial;
+}
+#FAQS{
+    background-color: #888888;
+    margin-top: 5%;
+}
+#option2{
+    background-color: #515151;
+}
+#option3{
+    background-color: #1E1E1E;
+}
+@keyframes darkmodeactive {
+        from{justify-content: left;}
+        to{justify-content: right;}
+}
+.rodape{
+    background-color: var(--color-rei);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 3em;
+}
+#Contatos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-between;
+    margin-inline: 50px;
+    align-items: center;
+}
+.co{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+#Contatos h2{
+    color: white;
+}
+#Contatos a:hover{
+    transform: scale(1.1);
+    color: var(--color-segundaria);
+    transition: 0.5s;
+}
+#Contatos a{
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 700;
+}
+.icones{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.icones i{
+    font-size: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 10px;
+    line-height: 35px;
+    color: var(--color-segundaria);
+    transition: 0.8s;
+}
+.icones i:hover{
+    transform: scale(1.2);
+    color: white;
+    border-color: var(--color-segundaria);
+}
+#descrod{
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    width: 800px;
+}
+.rodape g{
+    color: var(--color-segundaria);
+}
+#Mariaritas{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 2vh;
+}
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    .botton{
+        display: block;
+        border: 0;
+    }
+    .selection{
+        position: fixed;
+        flex-direction: column;
+        height: 100%;
+        width: 60vw;
+        margin-left: -100vw;
+        top: 30px;
+        animation-duration: 1s;
+        z-index: 51;
+        background-color: var(--color-rei);
+        gap: 3em;
+    }
+     #FAQS, #option2, #option3{
+        transform: scale(0.7);
+    }
+    .co{
+        display: flex;
+        flex-direction: column;
+    }
+    #descrod{
+        transform: scale(0.7);
+    }
+    #Contatos{
+        margin: 0;
+    }
+    #retangle{
+        display: none;
+    }
+    @keyframes animacao {
+        from{
+            margin-left: -100vw;
+        }
+        to{
+            margin-left: -10vw;
+        }
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 376px) {
+    .botton{
+        display: block;
+        border: 0;
+    }
+    .selection{
+        position: fixed;
+        flex-direction: column;
+        height: 100%;
+        width: 55vw;
+        margin-left: -100vw;
+        top: 30px;
+        animation-duration: 1s;
+        z-index: 51;
+        background-color: var(--color-rei);
+        gap: 3em;
+    }
+    #FAQS, #option2, #option3{
+        transform: scale(0.5);
+    }
+    #descrod{
+        font-size: 15px;
+        width: 300px;
+    }
+    #Mariaritas{
+        font-size: 20px;
+    }
+    #Contatos{
+        margin-top: 15px;
+        margin-inline: 0;
+        align-items: flex-start;
+    }
+    .co{
+        flex-direction: column;
+        gap: 0;
+    }
+    .icones{
+        font-size: 10px;
+    }
+    .icones i{
+        transform: scale(0.8);
+    }
+    #Contatos a, #Contatos h2{
+        font-size: 20px;
+    }
+    #retangle{
+        display: none;
+    }
+    @keyframes animacao {
+        from{
+            margin-left: -100vw;
+        }
+        to{
+            margin-left: -10vw;
+        }
+    }
+}
+@media screen and (max-width: 375px) {
+    .navbar h2{
+        transform: scale(0.8);
+    }
+    h1{
+        transform: scale(0.6);
+    }
+    .navbar a{
+        transform: scale(0.8);
+    }
+    #OnOff{
+        transform: scale(0.8);
+    }
+    #FAQS, #option2, #option3{
+        transform: scale(0.4);
+        margin-bottom: 0;
+    }
+    .botton{
+        display: block;
+        border: 0;
+    }
+    .selection{
+        position: fixed;
+        flex-direction: column;
+        height: 100%;
+        width: 60vw;
+        margin-left: -100vw;
+        top: 30px;
+        animation-duration: 1s;
+        z-index: 51;
+        background-color: var(--color-rei);
+        gap: 3em;
+    }
+    .navbar{
+        width: 100%;
+        padding: 0;
+    }
+    #retangle{
+        display: none;
+    }
+    #descrod{
+        font-size: 15px;
+        width: 300px;
+    }
+    #Mariaritas{
+        font-size: 20px;
+    }
+    #Contatos{
+        flex-direction: column;
+        margin-top: 15px;
+        margin-inline: 0;
+        align-items: center;
+        gap: 1em;
+    }
+    .co{
+        flex-direction: column;
+        gap: 0;
+    }
+    .icones{
+        font-size: 10px;
+    }
+    .icones i{
+        transform: scale(0.8);
+    }
+    #Contatos a, #Contatos h2{
+        font-size: 20px;
+    }
+    @keyframes animacao {
+        from{
+            margin-left: -100vw;
+        }
+        to{
+            margin-left: -10vw;
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .selection{
+        gap: 3em;
+        width: 40vw;
+    }
+    .navbar a{
+        font-size: 20px;
+    }    
+}
+@media screen and (min-width: 2250px) {
+    .navbar h2{
+        transform: scale(2);
+        margin-left: 100px;
+    }
+    #FAQS, #option2, #option3{
+        transform: scale(2);
+    }
+    .navbar a, #all i{
+        transform: scale(2);
+    }
+    #all{
+        gap: 5em;
+    }
+    .selection{
+        gap:15em;
+    }
+    #retangle{
+        height: 60px;
+    }
+    .rodape{
+        margin-top: 100px;
+        position: sticky;
+        bottom: 0;
+    }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MariaRitaImóveis - FAQS</title>
+    <!--Importando o FontsAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="FAQSstyle.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="j/png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <button class="botton" onclick="Ative()"><i class="fa-solid fa-bars"></i></button>
+            <div class="logo">
+                <h2 id="loguinho">Maria<g>Rita</g>Imóveis</h2>
+            </div>
+            <div id="retangle"></div>
+            <div id="selecao" class="selection">
+                <button class="botton" onclick="Ative()"><i class="fa-solid fa-xmark"></i></button>
+                <a class="primeiro" href="index.html">Home</a>
+                <a class="primeiro" href="sobremim.html">Sobre Mim</a><!--O "g" serve para demarcar qual página está!!!-->
+                <a class="primeiro" href=""><g>FAQS</g></a>
+                <a class="primeiro" href="index.html">Empreendimentos</a>
+                <botton onclick="DarkMode()">
+                    <div id="OnOff">
+                        <div id="circle"></div>
+                    </div>
+                </botton>
+            </div>
+        </nav>
+        <div id="barraAzul"></div>
+    </header>
+    <main>
+        <div id="all">
+            <em>
+                <h1 id="uau">Dúvidas e Questionamentos</h1>
+            </em>
+            <section>
+                <select name="FAQS" id="FAQS">
+                    <option value="opcao1">...</option>
+                    <option value="opcao1">Sobre Financiamento e Compra</option>
+                    <option value="opcao3">Sobre a Empresa</option>
+                </select>
+            </section>
+            <i class="fa-solid fa-arrow-down"></i>
+            <section>
+                <select name="Quem" id="option2">
+                    <option value="">Selecione uma opção!</option>
+                </select>
+            </section>
+            <i class="fa-solid fa-arrow-down"></i>
+            <section>
+                <p id="option3">Selecione uma opção!</p>
+            </section>
+        </div><!--Esse all é o conteúdo da sua página, TODO sem excessão, então coloque tudo tirando a navbar dentro dele.-->
+        <div class="rodape">
+            <strong>
+                <h2 id="Mariaritas">Maria<g>Rita</g>Imóveis</h2>
+            </strong>
+            <h2 id="descrod">Conte com a Maria<g>Rita</g>Imóveis para encontrar o lugar perfeito para você viver, trabalhar ou investir. Aqui, o seu futuro tem endereço certo.</h2>
+            <div id="Contatos">
+                <a href="direitos.html">Direitos Garantidos</a>
+                <div class="co">
+                    <h2>Contatos:</h2>
+                    <div class="icones">
+                        <a href="https://wa.me/557187069019 " target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/maria-rita-da-leal-bb1487162/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/mariarita.leal/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="FAQSscript.js"></script>
+</body>
+</html>

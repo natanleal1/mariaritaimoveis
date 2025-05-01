@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MariaRitaImoveis - Solar das Amoreiras</title>
+    <link rel="stylesheet" href="empresastyle.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="j/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <button class="botton" onclick="Ative()"><i class="fa-solid fa-bars"></i></button>
+      <div class="logo">
+          <h2 id="loguinho">Maria<g>Rita</g>Imóveis</h2>
+      </div>
+      <div id="retangle"></div>
+      <div id="selecao" class="selection">
+          <button class="botton" onclick="Ative()"><i class="fa-solid fa-xmark"></i></button>
+          <a class="primeiro" href="index.html">Home</a>
+          <a class="primeiro" href="sobremim.html">Sobre Mim</a><!--O "g" serve para demarcar qual página está!!!-->
+          <a class="primeiro" href="FAQS.html">FAQS</a>
+          <a class="primeiro" href="#empreendimentos"><g>Empreendimentos</g></a>
+          <botton onclick="DarkMode()">
+              <div id="OnOff">
+                  <div id="circle"></div>
+              </div>
+          </botton>
+      </div>
+    </nav>
+    <div id="barraAzul"></div>
+  </header>
+
+    <div id="all">
+
+    
+    <br><br>
+    <h2 id="empreendimentos" class="titulo-empre"><span class="letras-esp"><i class="fa-solid fa-house-user"></i> Solar das Amoreiras <i class="fa-solid fa-building-user"></i></span></h2><br>
+    <!--Carrossel-->
+    <section class="swipers">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">    
+                <!--Meu card fica aqui-->
+                <div class="centralizador-cont">
+                    <div class="card-container">
+                    <span class="card">
+                    <div class="image-card">
+                        <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4520/thumb_detalhes/MRV_SOLAR_DAS_AMOREIRAS_FACHADA_FINAL.jpg"  height="400px" width="1000px" alt="Fachada" id="imagem-swipers" >
+                    </div>
+                    <div class="text-container">
+                        <div class="text-card">
+                        </div>
+                  </div>
+                </span>
+            </div>
+            </div>
+            </div>
+            <!--Finaliza aqui-->
+            <div class="swiper-slide">
+              <!--Meu card fica aqui-->
+              <div class="card-container">
+              <span class="card">
+                  <div class="image-card">
+                      <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4520/thumb_detalhes/MRV_CRV_SOLAR-DAS-AMOREIRAS_VARANDA_FINAL.jpg"  height="400px" width="1000px" alt="Varanda" id="imagem-swipers">
+                  </div>
+      
+            <div class="text-container">
+                <div class="text-card">
+                </div>
+                <br>
+              </div>
+            </span>
+            </div>
+          </div>
+          
+          <div class="swiper-slide">
+            <div class="card-container">
+              <div class="card">
+                <div class="image-card">
+                  <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4520/thumb_detalhes/MRV_CRV_SOLAR-DAS-AMOREIRAS_SALA_FINAL.jpg"  height="400px" width="1000px" alt="Sala" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <!--Aqui se inicia o card-->
+            <div class="card-container">
+              <span class="card">
+                <div class="image-card">
+                  <br>
+                  
+                  <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4520/thumb_detalhes/MRV_CRV_SOLAR-DAS-AMOREIRAS_QUARTO_FINAL.jpg"  height="400px" width="1000px" alt="Quarto" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                  <div class="text-card">
+                  </div>
+                  <br>
+                </div>
+              </span>
+            </div>
+          </div>
+          <!--Aqui se finaliza o card-->
+          <div class="swiper-slide">
+            <div class="card-container">
+              <div class="card">
+                <div class="image-card">
+                  <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4520/thumb_detalhes/MRV_CRV_SOLAR-DAS-AMOREIRAS_GARDEN_FINAL.jpg"  height="400px" width="1000px" alt="Garden" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                  <div class="text-card">
+                  </div>
+                  <br>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-container">
+              <div class="card">
+                <div class="image-card">
+                  <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4520/thumb_detalhes/MRV_SOLAR_DAS_AMOREIRAS_PISCINA_NOITE_FINAL.jpg"  height="400px" width="1000px" alt="Piscina" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-container">
+              <div class="card">
+                <div class="image-card">
+                  <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4520/thumb_detalhes/MRV_SOLAR_DAS_AMOREIRAS_PISCINA_DIA_CERAMICA_CHURRASQ_FINAL.jpg"  height="400px" width="1000px" alt="Churrasqueira" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                  <div class="text-card">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-container">
+              <div class="card">
+                <div class="image-card">
+                  <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4520/thumb_detalhes/MRV_CRV_SOLAR-DAS-AMOREIRAS_SALO-DE-FESTAS_FINAL.jpg"  height="400px" width="1000px" alt="Salão de Festas" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                  <div class="text-card">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-container">
+              <div class="card">
+                <div class="image-card">
+                  <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4520/thumb_detalhes/MRV_SOLAR_DAS_AMOREIRAS_CHURRASQUEIRA_CERAMICA_PAREDE_FINAL.jpg"  height="400px" width="1000px" alt="Churrasqueira" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                  <div class="text-card">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <main class="main-empreend">
+      <article class="desc">
+          <h2 id="descricao">Saia do aluguel e realize o sonho da casa própria em Camaçari! Essa é a conquista da sua vida com lazer para todas as idades. Os apartamentos em Camaçari estão em excelente localização em um condomínio fechado com todo o conforto, tranquilidade, segurança. Solar das Amoreiras vai te surpreender com apartamento de 2 quartos que possuem ambientes integrados.</h2>
+      </article>
+      <a href="https://wa.me/557187069019 " target="_blank"><button class="buttonzap">Chama no Zap <i class="fa-brands fa-whatsapp"></i></button></a>
+    </main>
+    <br>
+    <br> 
+
+      
+  </div>
+
+
+  </div><!--Esse all é o conteúdo da sua página, TODO sem excessão, então coloque tudo tirando a navbar dentro dele.-->
+
+  <footer class="rodape">
+    <h2 id="Mariaritas">Maria<g>Rita</g>Imóveis</h2>
+    <h2 id="descrod">Conte com a Maria<g>Rita</g>Imóveis para encontrar o lugar perfeito para você viver, trabalhar ou investir. Aqui, o seu futuro tem endereço certo.</h2>
+    <div id="Contatos">
+        <a href="direitos.html">Direitos Garantidos</a>
+        <div class="co">
+            <h2>Contatos:</h2>
+            <div class="icones">
+              <a href="https://wa.me/557187069019 " target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="https://www.linkedin.com/in/maria-rita-da-leal-bb1487162/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/mariarita.leal/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="empresacript.js"></script>
+
+    <!--Funções do carrossel (em baixo)-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Carrosel ainda só que parte editável da bibloteca-->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        keyboard: {
+          enabled: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    
+</body>
+</html>

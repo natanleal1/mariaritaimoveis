@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MariaRitaImoveis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="j/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <button class="botton" onclick="Ative()"><i class="fa-solid fa-bars"></i></button>
+      <div class="logo">
+          <h2 id="loguinho">Maria<g>Rita</g>Imóveis</h2>
+      </div>
+      <div id="retangle"></div>
+      <div id="selecao" class="selection">
+          <button class="botton" onclick="Ative()"><i class="fa-solid fa-xmark"></i></button>
+          <a class="primeiro" href="#"><g>Home</g></a>
+          <a class="primeiro" href="sobremim.html">Sobre Mim</a><!--O "g" serve para demarcar qual página está!!!-->
+          <a class="primeiro" href="FAQS.html">FAQS</a>
+          <a class="primeiro" href="#empreendimentos">Empreendimentos</a>
+          <botton onclick="DarkMode()">
+              <div id="OnOff">
+                  <div id="circle"></div>
+              </div>
+          </botton>
+      </div>
+    </nav>
+    <div id="barraAzul"></div>
+  </header>
+
+    <div id="all">
+
+      <main id="home" class="container">
+        <div class="container-respons">
+              <img src="foto.jpg" height="200px" width="200px" alt="" id="imagem-imagem" >
+          <div class="container-icons-texto">
+              <span class="texto-lado">
+                  <p>Sou Maria Rita, corretora de imóveis com mais de 10 anos <br>
+                    de experiência em vendas. Tenho paixão por ajudar pessoas a <br>
+                    realizarem o sonho da casa própria com confiança e transparência. <br>
+                    <g>Vamos conversar?</g></p>
+              </span>
+              <div class="icones-dark" id="cima">
+                <a href="https://wa.me/557187069019 "><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/maria-rita-da-leal-bb1487162/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/mariarita.leal/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <br><br><br><br><br>
+    <hr>
+    <h2 id="empreendimentos" class="titulo-empre"><span class="letras-esp"><i class="fa-solid fa-house-user"></i> Conheça os empreendimentos <i class="fa-solid fa-building-user"></i></span></h2>
+    <!--Carrossel-->
+    <section class="swipers">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">    
+            <!--Meu card fica aqui-->
+            <div class="centralizador-cont">
+              <div class="card-container">
+              <span class="card">
+                  <div class="image-card">
+                      <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4658/vitrine/PPC_SPAZIO-IMPERATRIZ_PORTARIA_RFA2_2024-09-02aa84ed41-41d0-4c24-93a7-07621854575b.webp?v1"  height="200px" width="500px" alt="Spazio-Imperatriz" id="imagem-swipers" >
+                  </div>
+                  <div class="text-container">
+                      <div class="text-card">
+                        <h2>Spazio Imperatriz</h2>
+                        <p>Empreendimento dentro da Smart-Cidade da MRV</p><br>
+                        <p>Localizado na Paralela</p>
+                      </div>
+                      <a href="empresa1.html"><button class="button">Saiba Mais!</button></a>
+                  </div>
+              </span>
+            </div>
+            </div>
+            </div>
+            <!--Finaliza aqui-->
+            <div class="swiper-slide">
+              <!--Meu card fica aqui-->
+              <div class="card-container">
+              <span class="card">
+                  <div class="image-card">
+                      <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4657/vitrine/PPC_PQ_MARQUESES_GUARITA_RFA1_2024-09-30b5515dd4-94eb-4e92-80b6-33e627431011.webp?v1"  height="200px" width="500px" alt="Parque dos Marqueses" id="imagem-swipers">
+                  </div>
+      
+            <div class="text-container">
+                <div class="text-card">
+                  <h2>Parque dos Marqueses</h2>
+                  <p>Empreendimento dentro da Smart-Cidade da MRV</p>
+                  <br>
+                  <p>Localizado na Paralela, Salvador</p>
+                </div>
+                <br>
+                <a href="empresa2.html"><button class="button">Saiba Mais!</button></a>
+              </div>
+            </span>
+            </div>
+          </div>
+          
+          <div class="swiper-slide">
+            <div class="card-container">
+              <div class="card">
+                <div class="image-card">
+                  <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4560/PORTAL-DE-PIATA_PE_GUARITA-ENTARDECER_2024_02_28.webp"  height="200px" width="500px" alt=" Portal de piatã" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                  <h2>Portal de Piatã</h2>
+                  <p>Empreendimento dentro da Smart-Cidade da MRV</p>
+                  <br>
+                  <p>Localizado na Paralela</p>
+                  <br>
+                  <a href="empresa3.html"><button class="button">Saiba Mais!</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <!--Aqui se inicia o card-->
+            <div class="card-container">
+              <span class="card">
+                <div class="image-card">
+                  <br>
+                  
+                  <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4671/PQ-PRINCIPES_FACHADA_RFA3_2025-01-31_1024d8ee7-5e5f-4391-85b9-702dffd8586f.webp?v1"  height="200px" width="500px" alt="Parque dos Principes" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                  <div class="text-card">
+                    <h2>Parque dos Principes</h2>
+                    <p>Empreendimento dentro da Smart-Cidade da MRV</p>
+                    <br>
+                    <p>Localizado na Paralela</p>
+                  </div>
+                  <br>
+                  <a href="empresa4.html"><button class="button">Saiba Mais!</button></a>
+                </div>
+              </span>
+            </div>
+          </div>
+          <!--Aqui se finaliza o card-->
+          <div class="swiper-slide">
+            <div class="card-container">
+              <div class="card">
+                <div class="image-card">
+                  <img src="https://www.mrvnobbb.com.br/adobe/dynamicmedia/deliver/dm-aid--aa5b0b14-d0d9-4bfa-9ac2-f4c15768dcf4/mrv-sus-piscina-torres-ef.jpg?quality=100&preferwebp=true"  height="200px" width="500px" alt="Sensia Urban Piatã" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                  <div class="text-card">
+                    <h2>Sensia Urban Piatã</h2>
+                    <p>Empreendimento de alto padrão com o máximo de conforto produzido pela linha Sensia</p>
+                    <br>
+                    <p>Localizado no Stiep</p>
+                  </div>
+                  <br>
+                  <a href="empresa5.html"><button class="button">Saiba Mais!</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-container">
+              <div class="card">
+                <div class="image-card">
+                  <img src="https://www.mrvnobbb.com.br/adobe/dynamicmedia/deliver/dm-aid--aa5b0b14-d0d9-4bfa-9ac2-f4c15768dcf4/mrv-sus-piscina-torres-ef.jpg?quality=100&preferwebp=true"  height="200px" width="500px" alt="Sensia Urban Stiep" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                  <h2>Sensia Urban Stiep</h2>
+                  <p>Empreendimento de alto padrão com o máximo de conforto produzido pela linha Sensia</p>
+                  <br>
+                  <p>Localizado no Stiep</p>
+                  <br>
+                  <a href="empresa6.html"><button class="button">Saiba Mais!</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-container">
+              <div class="card">
+                <div class="image-card">
+                  <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4614/RECANTO-DAS-FLORES_PE_FACHADA-ENTARDECER_2024_06_1473cec92c-71b1-4b6e-97b6-f3745d0f7767.webp"  height="200px" width="500px" alt="Recanto das flores" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                  <div class="text-card">
+                    <h2>Reserva das Flores</h2>
+                    <p>Empreedimento com o selo de confiança MRV</p>
+                    <br>
+                    <p>Locacalizado em Jardim Cajazeiras</p>
+                  </div>
+                  <br>
+                  <a href="empresa7.html"><button class="button">Saiba Mais!</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-container">
+              <div class="card">
+                <div class="image-card">
+                  <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4190/1920x767/RESERVA-DA-COLINA_PE_GUARITA-NOTURNA_2021_03_22.jpg"  height="200px" width="500px" alt="Reserva da colina" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                  <div class="text-card">
+                    <h2>Reserva da Colina</h2>
+                    <p>Empreedimento com selo de confiança MRV</p>
+                    <br>
+                    <p>Localizado na Região de Cajazeiras</p>
+                    <br>
+                    <a href="empresa8.html"><button class="button">Saiba Mais!</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-container">
+              <div class="card">
+                <div class="image-card">
+                  <img src="https://cdn.mrv.com.br/imoveis/upload/imagens/4520/1920x767/MRV_SOLAR_DAS_AMOREIRAS_FACHADA_FINAL.jpg"  height="200px" width="500px" alt="Solar das Amoreiras" id="imagem-swipers">
+                </div>
+                <div class="text-container">
+                  <div class="text-card">
+                    <h2>Solar das Amoreiras</h2>
+                    <p>Empreendimento com o selo de confiaança MRV</p>
+                    <br>
+                    <p>Localizado em Abrantes, Camaçari</p>
+                    <br>
+                    <a href="empresa9.html"><button class="button">Saiba Mais!</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <!--Formulário-->
+    <section class="container2">
+      <section class="header">
+       <H1>Formulário</H1>  
+      </section>
+  
+      <form id="form" class="form">
+          <div class="form-content">
+              <label for="username">Nome Completo</label>
+              <input
+              type="text"
+              id="username"
+              placeholder="Digite seu nome"
+              required
+              />
+
+              <a>Erro</a>
+          </div>
+
+          <div class="form-content">
+              <label for="cpf">CPF</label>
+              <input type="text" id="cpf" placeholder="000.000.000-00" required>
+              <a>Erro</a>
+          </div>
+
+          <div class="form-content">
+              <label for="email">Email</label>
+              <input
+              type="email"
+              id="email"
+              placeholder="Digite seu email"
+              required
+              />
+              <a>Erro</a>
+          </div>
+
+
+          <div class="form-content">
+              <label for="telefone">Número de telefone</label>
+              <input
+              type="telefone"
+              id="telefone"
+              placeholder="(00) 0000-0000"
+              required
+              />
+              <a>Erro</a>
+          </div>
+
+
+          <div class="form-content">
+              <label for="imovel">Imóvel de interesse</label>
+              <input
+              type="imovel"
+              id="imovel"
+              placeholder="Digite o nome do imóvel conforme os anúncios acima"
+              required
+              />
+              <a>Erro</a>
+          </div>
+
+          <div class="form-content">
+              <label for="Dinheiro">Qual a melhor data para você verificar o imóvel?</label>
+              <input
+              type="text"
+              id="date"
+              placeholder="00/00/0000"
+              required
+              />
+              <a>Erro</a>
+          </div>
+          
+          <div class="check"><input type="checkbox" required><label class="rex" for="">Você aceita os <a href="#">Termos e Condições</a></label><br></div>
+          <div class="check"><input type="checkbox"><label class="rex" for="">Você possuí todos os documentos para realizar a compra? Caso não saiba quais são vá até o <a href="FAQS.html">FAQS</a></label></div>
+
+          <button type="submit" class="hover-button" >Cadastrar</button>
+      </form>
+      
+  </section>
+
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+<script>    $(document).ready(function(){
+  $('#telefone').mask('(00) 0000-0000');
+  $('#cpf').mask('000.000.000-00', {reverse: true});
+  $('#date').mask('00/00/0000');
+})</script>
+
+  </div><!--Esse all é o conteúdo da sua página, TODO sem excessão, então coloque tudo tirando a navbar dentro dele.-->
+
+  <footer class="rodape">
+    <h2 id="Mariaritas">Maria<g>Rita</g>Imóveis</h2>
+    <h2 id="descrod">Conte com a Maria<g>Rita</g>Imóveis para encontrar o lugar perfeito para você viver, trabalhar ou investir. Aqui, o seu futuro tem endereço certo.</h2>
+    <div id="Contatos">
+        <a href="direitos.html">Direitos Garantidos</a>
+        <div class="co">
+            <h2>Contatos:</h2>
+            <div class="icones">
+                <a href="https://wa.me/557187069019 " target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/maria-rita-da-leal-bb1487162/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/mariarita.leal/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+  </footer>
+    <script src="script.js"></script>
+
+    <!--Funções do carrossel (em baixo)-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Carrosel ainda só que parte editável da bibloteca-->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        keyboard: {
+          enabled: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>    
+</body>
+</html>

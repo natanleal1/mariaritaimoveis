@@ -1,0 +1,114 @@
+:root{
+  --color-segundaria: #DAAD18;
+  --color-rei: #374B62;
+  --color-whitesimilar: #D9D9D9;
+  --color-blacksimilar: #2F2F2F;
+  --color-barra: #1D3753;
+  --color-azul: #202070;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--color-whitesimilar);
+    color: #333;
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    transition: 250ms;
+    font-weight: 600;
+  }
+.botões{
+  display: flex;
+  justify-content: space-between
+}
+  h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: 250ms;
+  }
+  .card h2 {
+    color: #2980b9;
+    margin-top: 0;
+    transition: 250ms;
+  }
+  .card p {
+    margin: 0;
+    transition: 250ms;
+  }
+
+  /* Dark Mode */
+
+  .card.DarkMode{
+    background: rgb(54, 61, 65);
+  }
+
+  h1.DarkMode{
+    color: #8d98d4;
+  }
+  .card p.DarkMode{
+    color: #f9f9f9;
+  }
+  .card h2.DarkMode{
+    color: #8092e5;
+  }
+  body.DarkMode{
+    background: #252a2b;
+  }
+.bvoltar{
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 250ms;
+}
+.bvoltar:hover{
+  scale: 1.2;
+}
+  .OnOff{
+    background-color: var(--color-whitesimilar);
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    justify-content: left;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.circle{
+    background-color: var(--color-blacksimilar);
+    width: 35px;
+    height: 25px;
+    border-radius: 50%;
+    transition: 250ms;
+}
+
+.OnOff.OnOn{
+  background-color: var(--color-blacksimilar);
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  justify-content: left;
+  transition: 0.8s;
+}
+.circle.CircleOn{
+  background-color: rgb(138, 138, 138);
+  width: 35px;
+  height: 25px;
+  border-radius: 50%;
+  transform: translateX(40px);
+}
